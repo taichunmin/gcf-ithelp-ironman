@@ -1,0 +1,29 @@
+{
+  "name": "gcf-ithelp-ironman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:taichunmin/gcf-ithelp-ironman.git",
+  "author": "taichunmin <taichunmin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^16.1.1",
+    "axios": "^0.19.0",
+    "csv-parse": "^4.4.5",
+    "dotenv": "^8.1.0",
+    "googleapis": "39",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "qs": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "scripts": {
+    "repl": "node --experimental-repl-await repl.js"
+  }
+}
